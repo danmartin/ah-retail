@@ -1,0 +1,19 @@
+<div class="jumbotron text-center home-page">
+    <div style="width:70%;margin:0 auto;"><img src="/assets/images/ahlogo2.png" style="width:100%;"></div>
+</div>
+
+<div class="main-body bg-light">
+    <div class="row">
+        <div class="col-md-12">
+            <h4>Our Brands A to Z</h4>
+            <p>
+                <ul class="text-left list-unstyled product-list">
+                    <li ng-repeat="(key, attr) in brands | orderBy:'name'">
+                        <a href="{{attr.url}}" ng-if="attr.url !== ''" target="_blank">{{attr.name}}</a>
+                        <span ng-if="attr.url === ''"> {{ attr.name }}</span>
+                    </li> 
+                </ul>
+            </p>
+        </div>
+    </div>
+</div>

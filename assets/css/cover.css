@@ -1,0 +1,226 @@
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+    color: #333;
+    text-shadow: none; /* Prevent inheritance from `body` */
+    background-color: #fff;
+    border: .05rem solid #fff;
+}
+
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+    height: 100%;
+    background-color: #5e9446;
+}
+body {
+    color: #fff;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+strong {
+    font-weight:700;
+    font-size:1.1rem;
+}
+
+h1, h2, h3, h4, h5, h6, nav {
+    font-family: 'Varela Round', sans-serif;
+    font-weight:400;
+}
+
+.main-body {
+    padding:1.25rem;
+    color:#555;
+    border-radius: .25rem;
+}
+.container, #main {
+    /* background-color: #fff; */
+    margin-top: 1rem;
+    padding-top: 1rem;
+}
+
+.bg-green {
+    background-color: #558740 !important;
+}
+
+nav .nav.navbar-nav {
+    margin:0 auto;
+    font-size:1.4em;
+}
+
+li.logo {
+     margin: 0 20px;
+}
+
+.sidebar {
+    color:#555;
+    text-align:left:
+}
+
+.hour-panel {
+    text-align:left;
+}
+
+.hour-panel h4 {
+    margin:0;
+    padding:0;
+}
+
+.m-top-1 {
+    margin-top:1rem;
+}
+
+
+.m-top-2 {
+    margin-top:2rem;
+}
+
+.pricing-table {
+    padding:1rem;
+    background-color: #eee;
+    border-radius: .25rem;
+}
+
+.pricing-table li.title {
+    font-size:1.3rem;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 700;
+}
+.pricing-table li.price {
+    font-size:1.1rem;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 400;
+}
+
+
+.brand-panel {
+    margin-top: 20px;
+    text-align: left;
+    padding:1.5em;
+    background-color:  rgb(33, 56, 99);
+    color:#fff;
+    min-height:138px;
+    background-image: url("/assets/images/bowl.png");
+    background-position: top 4px left -100px;
+    background-repeat: no-repeat;
+}
+
+.wash-panel {
+    margin-top: 20px;
+    text-align: left;
+    padding:1.5em;
+    background-color:  rgb(99, 73, 33);
+    color:#fff;
+    background-image: url("/assets/images/dogwash.png");
+    background-position: top 48px left -24px;
+    background-repeat: no-repeat;
+}
+
+.kibble-panel {
+    text-align: left;
+    padding:1.5em;
+    background-color:#333;
+    color:#fff;
+    background-image: url("/assets/images/calc.png");
+    background-position: top 42px left -40px;
+    background-repeat: no-repeat;
+}
+
+.social-panel {
+    text-align: left;
+    padding:1.5em;
+    background-color:rgb(56, 26, 26);
+    color:#fff;
+}
+
+ul.social-list a {
+    color:#fff;
+}
+ul.social-list i {
+    font-size:1.3em;
+    margin-right:4px;
+}
+ul.social-list li {
+    padding:2px;
+}
+
+.kibble-panel .card-block, .brand-panel .card-block, .wash-panel .card-block , .social-panel .card-block {
+    padding-left:2.3em;
+}
+/* Jumbotron bkgs*/
+.home-page {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("/assets/images/blogbkg.png");
+    background-size: cover;
+}
+.about-page {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("/assets/images/ahdamariscotta.jpg");
+    background-size: cover;
+}
+.contact-page {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("/assets/images/ahdamariscotta.jpg");
+    background-size: cover;
+}
+
+.team-page {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("/assets/images/ahdamariscotta.jpg");
+    background-size: cover;
+}
+
+.groom-page {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("/assets/images/muttnose.jpg");
+    background-size: cover;
+}
+
+.wb-page {
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("/assets/images/westbrook.png");
+    background-size: cover;
+}
+.main-logo {
+    display:none;
+}
+
+.product-list {
+    font-size: .9em;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    -ms-column-count: 3;
+    -o-column-count: 3;
+    column-count: 3;
+}
+
+.bluebox {
+    background-color: rgb(0, 99, 66);
+    padding: 0.5em;
+}
+
+.bluebox > div {
+    border: solid #fff 1px;
+    padding: 20px;
+    color:#fff
+}
+
+@media only screen and (max-width: 768px) {
+    .sidebar {
+        order: 1;
+    }
+
+    .main-col {
+        order: 2;
+    }
+
+    .mhide {
+        display:none;
+    }
+    .main-logo {
+        display:block;
+        width:80%;
+    }
+}

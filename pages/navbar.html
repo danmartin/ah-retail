@@ -1,0 +1,32 @@
+<nav class="navbar navbar-expand-md navbar-dark ">
+        <!-- <a class="navbar-brand" href="/">The Animal House</a> -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" ng-click="toggleNav()">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <img src="assets/images/ahlogo.png" alt="Logo"class="main-logo">
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="nav navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="/" ng-click="toggleNav()">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/about" ng-click="toggleNav()">About</a>
+                </li>
+                <li class="logo mhide">
+                        <a href="/">
+                            <img src="assets/images/mini-logo.png" alt="Logo">
+                        </a>
+                    </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/team" ng-click="toggleNav()">Team</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Locations</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="/damariscotta"  ng-click="toggleNav()">Damariscotta</a>
+                        <a class="dropdown-item" href="/westbrook" ng-click="toggleNav()">Westbrook</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
