@@ -49,9 +49,10 @@ ahApp.controller('hoursController', function($scope) {
 ahApp.controller('groomingController', function($scope) {
 	$scope.message = 'blah blah Grooming';
 });
-ahApp.controller('teamController', function($scope) {
+ahApp.controller('teamController',['$scope','employeeData',function($scope,employeeData) {
 	$scope.message = 'Meet The Team';
-});
+	$scope.employees = employeeData;
+}]);
 ahApp.controller('damaController', function($scope, $sce) {
 	$scope.message = '15 Coastal Marketplace<br>Damariscotta, ME 04543';
 	$scope.message = $sce.trustAsHtml($scope.message);

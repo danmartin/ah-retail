@@ -11,6 +11,71 @@ ahApp.directive('navbar', function() {
 		templateUrl: '/pages/navbar.html'
 	};
 });
+ahApp.constant("employeeData", [
+    {
+        name: "Kim",
+        store: "Damariscotta",
+        role: "",
+        image: "",
+        blurb: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+    },
+    {
+        name: "Becca",
+        store: "Damariscotta",
+        role: "",
+        image: "",
+        blurb: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+    },
+    {
+        name: "Victoria",
+        store: "Damariscotta",
+        role: "",
+        image: "",
+        blurb: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+    },
+    {
+        name: "Heather",
+        store: "Damariscotta",
+        role: "",
+        image: "",
+        blurb: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+    },
+    {
+        name: "Ivy",
+        store: "Damariscotta",
+        role: "",
+        image: "",
+        blurb: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+    },
+    {
+        name: "Donna",
+        store: "Westbrook",
+        role: "",
+        image: "",
+        blurb: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+    },
+    {
+        name: "David",
+        store: "Westbrook",
+        role: "",
+        image: "",
+        blurb: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+    },
+    {
+        name: "Sarah",
+        store: "Westbrook",
+        role: "",
+        image: "",
+        blurb: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+    },
+    {
+        name: "Tonya",
+        store: "Westbrook",
+        role: "",
+        image: "",
+        blurb: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+    },
+]);
 ahApp.constant("brandData", [
     {
         "name":"Conair Corporation",
@@ -42,59 +107,47 @@ ahApp.constant("brandData", [
     },
     {
         "name":"Farnam Pet",
-        "url":""
+        "url":"https://www.farnam.com/"
     },
     {
         "name":"Naturvet",
-        "url":""
-    },
-    {
-        "name":"Outright",
-        "url":""
-    },
-    {
-        "name":"Bramton Company",
-        "url":""
-    },
-    {
-        "name":"Gamma Inc.",
-        "url":""
+        "url":"https://naturvet.com/"
     },
     {
         "name":"Ark Naturals",
-        "url":""
+        "url":"https://www.arknaturals.com/"
     },
     {
         "name":"Synergy Labs",
-        "url":""
+        "url":"http://synergylabs.com/"
     },
     {
         "name":"Greenies",
-        "url":""
+        "url":"https://www.greenies.com/"
     },
     {
         "name":"Grizzly Pet Products, Llc",
-        "url":""
+        "url":"http://www.grizzlypetproducts.com/"
     },
     {
         "name":"Halo, Purely for Pets",
-        "url":""
+        "url":"https://halopets.com/"
     },
     {
         "name":"Earthbath",
-        "url":""
+        "url":"https://earthbath.com/"
     },
     {
         "name":"Tropiclean",
-        "url":""
+        "url":"http://tropiclean.com/"
     },
     {
         "name":"Grannick's Bitter Apple Co",
-        "url":""
+        "url":"http://www.bitterapple.com/"
     },
     {
         "name":"Lupine",
-        "url":""
+        "url":"https://www.lupinepet.com/"
     },
     {
         "name":"Midwestern Pet Foods, Inc",
@@ -106,43 +159,43 @@ ahApp.constant("brandData", [
     },
     {
         "name":"Nature's Variety",
-        "url":""
+        "url":"https://www.naturesvariety.com/"
     },
     {
         "name":"Wellpet Llc",
-        "url":""
+        "url":"http://www.wellpet.com/index.aspx"
     },
     {
         "name":"Diamond Pet Foods",
-        "url":""
+        "url":"https://www.diamondpet.com/"
     },
     {
         "name":"Primal Pet Foods",
-        "url":""
+        "url":"https://primalpetfoods.com/"
     },
     {
         "name":"Dogswell, Llc",
-        "url":""
+        "url":"http://www.dogswell.com/"
     },
     {
         "name":"Grandma Lucy's",
-        "url":""
+        "url":"https://www.grandmalucys.com/"
     },
     {
-        "name":"Weruva International, Inc.",
-        "url":""
+        "name":"Weruva",
+        "url":"http://www.weruva.com/"
     },
     {
         "name":"Fromm Family Foods Llc",
-        "url":""
+        "url":"https://frommfamily.com/"
     },
     {
         "name":"Evangers",
-        "url":""
+        "url":"https://evangersdogfood.com/"
     },
     {
         "name":"Swheat Scoop",
-        "url":""
+        "url":"https://www.swheatscoop.com/"
     },
     {
         "name":"Arm & Hammer",
@@ -154,7 +207,7 @@ ahApp.constant("brandData", [
     },
     {
         "name":"The Real Meat Co",
-        "url":""
+        "url":"http://www.realmeatpet.com/"
     },
     {
         "name":"N-bone",
@@ -198,7 +251,7 @@ ahApp.constant("brandData", [
     },
     {
         "name":"Wysong Corp - Supplements",
-        "url":""
+        "url":"https://www.wysong.net/dog-supplements"
     },
     {
         "name":"Missing Link",
@@ -210,7 +263,7 @@ ahApp.constant("brandData", [
     },
     {
         "name":"Natura Pet Products",
-        "url":""
+        "url":"http://www.naturapet.com/"
     },
     {
         "name":"Ticked off Inc",
@@ -230,11 +283,11 @@ ahApp.constant("brandData", [
     },
     {
         "name":"Pet Naturals of Vermont",
-        "url":""
+        "url":"https://www.petnaturals.com/"
     },
     {
         "name":"Petcurean",
-        "url":""
+        "url":"https://www.petcurean.com/"
     },
     {
         "name":"Mars Fishcare North America In",
@@ -258,7 +311,7 @@ ahApp.constant("brandData", [
     },
     {
         "name":"Solid Gold Health Products",
-        "url":""
+        "url":"https://www.solidgoldpet.com/"
     },
     {
         "name":"Worthy Dog",
@@ -378,7 +431,7 @@ ahApp.constant("brandData", [
     },
     {
         "name":"Mutt Nose Best",
-        "url":""
+        "url":"https://muttnosebest.com/"
     },
     {
         "name":"Natural Chemistry",
@@ -522,7 +575,7 @@ ahApp.constant("brandData", [
     },
     {
         "name":"Newman's Own Organics",
-        "url":""
+        "url":"http://www.newmansown.com/pet-food/organics"
     },
     {
         "name":"K9 Granola Factory",
@@ -641,10 +694,6 @@ ahApp.constant("brandData", [
         "url":""
     },
     {
-        "name":"Go Dog",
-        "url":""
-    },
-    {
         "name":"Ware Manufacturing, Inc.",
         "url":""
     },
@@ -689,10 +738,6 @@ ahApp.constant("brandData", [
         "url":""
     },
     {
-        "name":"Central Garden & Pet - Aquatic",
-        "url":""
-    },
-    {
         "name":"Charming Pet Products",
         "url":""
     },
@@ -718,7 +763,7 @@ ahApp.constant("brandData", [
     },
     {
         "name":"Himalayan Dog Chew",
-        "url":""
+        "url":"https://www.himalayan.pet/"
     },
     {
         "name":"Applaws",
@@ -726,7 +771,7 @@ ahApp.constant("brandData", [
     },
     {
         "name":"Earth Animal",
-        "url":""
+        "url":"https://www.earthanimal.com/"
     },
     {
         "name":"Kurgo",
@@ -830,7 +875,7 @@ ahApp.constant("brandData", [
     },
     {
         "name":"Rad Cat Raw",
-        "url":""
+        "url":"http://www.radfood.com/"
     },
     {
         "name":"Answers",
@@ -846,11 +891,11 @@ ahApp.constant("brandData", [
     },
     {
         "name":"Daves Pet Food",
-        "url":""
+        "url":"https://davespetfood.com/"
     },
     {
         "name":"Nutri Source",
-        "url":""
+        "url":"http://nutrisourcepetfoods.com/homepage"
     },
     {
         "name":"Petrapport Inc",
@@ -890,15 +935,15 @@ ahApp.constant("brandData", [
     },
     {
         "name":"Open Farm",
-        "url":""
+        "url":"https://www.openfarmpet.com/"
     },
     {
         "name":"Steve's Real Food",
-        "url":""
+        "url":"http://www.stevesrealfood.com/"
     },
     {
         "name":"Sojos",
-        "url":""
+        "url":"https://www.sojos.com/"
     },
     {
         "name":"Andy's Dandys ",
@@ -974,7 +1019,7 @@ ahApp.constant("brandData", [
     },
     {
         "name":"Portland Pet Food Co.",
-        "url":""
+        "url":"https://portlandpetfoodcompany.com/"
     },
     {
         "name":"Fat Cat",
@@ -1006,7 +1051,7 @@ ahApp.constant("brandData", [
     },
     {
         "name":"Blue Buffalo",
-        "url":""
+        "url":"https://bluebuffalo.com/"
     },
     {
         "name":"Red Dingo",
@@ -1022,7 +1067,7 @@ ahApp.constant("brandData", [
     },
     {
         "name":"Stella & Chewys",
-        "url":""
+        "url":"https://www.stellaandchewys.com/"
     },
     {
         "name":"Doggie Safe N Dry",
@@ -1034,7 +1079,7 @@ ahApp.constant("brandData", [
     },
     {
         "name":"Wellness",
-        "url":""
+        "url":"https://www.wellnesspetfood.com/"
     },
     {
         "name":"Paragon Pet Products Usa Inc.",
@@ -1046,7 +1091,7 @@ ahApp.constant("brandData", [
     },
     {
         "name":"Honest Kitchen",
-        "url":""
+        "url":"https://www.thehonestkitchen.com/"
     },
     {
         "name":"Cloud Star",
@@ -1054,7 +1099,7 @@ ahApp.constant("brandData", [
     },
     {
         "name":"Acana",
-        "url":""
+        "url":"https://acana.com/?lang=usa"
     },
     {
         "name":"Vista Products",
@@ -1070,7 +1115,7 @@ ahApp.constant("brandData", [
     },
     {
         "name":"Fromm",
-        "url":""
+        "url":"https://frommfamily.com/"
     },
     {
         "name":"Mendota",
@@ -1114,11 +1159,11 @@ ahApp.constant("brandData", [
     },
     {
         "name":"Earthborn",
-        "url":""
+        "url":"https://www.earthbornholisticpetfood.com/"
     },
     {
         "name":"Orijen",
-        "url":""
+        "url":"https://www.orijen.ca/us/"
     },
     {
         "name":"Petstages",
@@ -1178,7 +1223,7 @@ ahApp.constant("brandData", [
     },
     {
         "name":"Wholistic Pet",
-        "url":""
+        "url":"https://www.wholisticpetorganics.com/"
     },
     {
         "name":"Wet Noz",
@@ -1290,7 +1335,7 @@ ahApp.constant("brandData", [
     },
     {
         "name":"Bravo Pet Food",
-        "url":""
+        "url":"http://www.bravopetfoods.com/index.html"
     },
     {
         "name":"Bach Flower Essences",
