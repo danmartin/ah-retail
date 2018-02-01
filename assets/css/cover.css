@@ -206,6 +206,12 @@ ul.social-list li {
     padding: 20px;
     color:#fff
 }
+.n-mobile {
+    display:block;
+}
+.y-mobile {
+    display:none;
+}
 
 @media only screen and (max-width: 768px) {
     .sidebar {
@@ -222,5 +228,13 @@ ul.social-list li {
     .main-logo {
         display:block;
         width:80%;
+    }
+
+
+    .n-mobile {
+        display:none;
+    }
+    .y-mobile {
+        display:block;
     }
 }
