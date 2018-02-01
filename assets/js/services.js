@@ -86,18 +86,6 @@ ahApp.constant("brandData", [
         "url":"https://www.drelseys.com/"
     },
     {
-        "name":"M2 Products Llc",
-        "url":""
-    },
-    {
-        "name":"Idea Factory",
-        "url":"http://www.rinseace.com/dog-showers"
-    },
-    {
-        "name":"T F H Publication",
-        "url":"http://www.tfh.com/"
-    },
-    {
         "name":"Cat Dancer Products Inc.",
         "url":"http://www.catdancer.com/"
     },
@@ -120,10 +108,6 @@ ahApp.constant("brandData", [
     {
         "name":"Synergy Labs",
         "url":"http://synergylabs.com/"
-    },
-    {
-        "name":"Greenies",
-        "url":"https://www.greenies.com/"
     },
     {
         "name":"Grizzly Pet Products, Llc",
@@ -162,10 +146,6 @@ ahApp.constant("brandData", [
         "url":"https://www.naturesvariety.com/"
     },
     {
-        "name":"Wellpet Llc",
-        "url":"http://www.wellpet.com/index.aspx"
-    },
-    {
         "name":"Diamond Pet Foods",
         "url":"https://www.diamondpet.com/"
     },
@@ -184,10 +164,6 @@ ahApp.constant("brandData", [
     {
         "name":"Weruva",
         "url":"http://www.weruva.com/"
-    },
-    {
-        "name":"Fromm Family Foods Llc",
-        "url":"https://frommfamily.com/"
     },
     {
         "name":"Evangers",
@@ -226,10 +202,6 @@ ahApp.constant("brandData", [
         "url":""
     },
     {
-        "name":"Proctor & Gamble",
-        "url":""
-    },
-    {
         "name":"Pawz Dog Boots Llc",
         "url":""
     },
@@ -250,20 +222,8 @@ ahApp.constant("brandData", [
         "url":""
     },
     {
-        "name":"Wysong Corp - Supplements",
-        "url":"https://www.wysong.net/dog-supplements"
-    },
-    {
-        "name":"Missing Link",
-        "url":""
-    },
-    {
         "name":"Van Ness Plastics, Inc.",
         "url":""
-    },
-    {
-        "name":"Natura Pet Products",
-        "url":"http://www.naturapet.com/"
     },
     {
         "name":"Ticked off Inc",
@@ -275,10 +235,6 @@ ahApp.constant("brandData", [
     },
     {
         "name":"Pestell Pet Products",
-        "url":""
-    },
-    {
-        "name":"Pawsitively Gourmet  Llc",
         "url":""
     },
     {
@@ -294,19 +250,11 @@ ahApp.constant("brandData", [
         "url":""
     },
     {
-        "name":"Fiber Core Llc",
-        "url":""
-    },
-    {
         "name":"Sweet Meadow Farm",
         "url":""
     },
     {
         "name":"Safe Paw",
-        "url":""
-    },
-    {
-        "name":"Evolved",
         "url":""
     },
     {
@@ -338,19 +286,7 @@ ahApp.constant("brandData", [
         "url":""
     },
     {
-        "name":"Premier Pet Products",
-        "url":""
-    },
-    {
-        "name":"Clix",
-        "url":""
-    },
-    {
         "name":"Musher's Secret",
-        "url":""
-    },
-    {
-        "name":"Nutramax",
         "url":""
     },
     {
@@ -370,23 +306,11 @@ ahApp.constant("brandData", [
         "url":""
     },
     {
-        "name":"Furminator",
-        "url":""
-    },
-    {
-        "name":"Api",
-        "url":""
-    },
-    {
         "name":"Carnivore Meat Company Llc",
         "url":""
     },
     {
         "name":"Tuffy's",
-        "url":""
-    },
-    {
-        "name":"Explore",
         "url":""
     },
     {
@@ -407,10 +331,6 @@ ahApp.constant("brandData", [
     },
     {
         "name":"Tiki Cat",
-        "url":""
-    },
-    {
-        "name":"Misc",
         "url":""
     },
     {
@@ -439,14 +359,6 @@ ahApp.constant("brandData", [
     },
     {
         "name":"Nature's Miracle",
-        "url":""
-    },
-    {
-        "name":"Alzoo",
-        "url":""
-    },
-    {
-        "name":"Shea Pet",
         "url":""
     },
     {
@@ -486,19 +398,11 @@ ahApp.constant("brandData", [
         "url":""
     },
     {
-        "name":"Penn-plax",
-        "url":""
-    },
-    {
         "name":"Pets International, Ltd",
         "url":""
     },
     {
         "name":"Darford Holding Company Inc",
-        "url":""
-    },
-    {
-        "name":"Howard Pet Products",
         "url":""
     },
     {
@@ -510,19 +414,11 @@ ahApp.constant("brandData", [
         "url":""
     },
     {
-        "name":"Deep Sea Aq",
-        "url":""
-    },
-    {
         "name":"Fiesta ",
         "url":""
     },
     {
         "name":"Ruffwear",
-        "url":""
-    },
-    {
-        "name":"Hueter Toledo Inc",
         "url":""
     },
     {
@@ -534,35 +430,11 @@ ahApp.constant("brandData", [
         "url":""
     },
     {
-        "name":"California Natural",
-        "url":""
-    },
-    {
-        "name":"Oster Corporation",
-        "url":""
-    },
-    {
         "name":"United Pet Group",
         "url":""
     },
     {
-        "name":"Freedom",
-        "url":""
-    },
-    {
         "name":"Okocat",
-        "url":""
-    },
-    {
-        "name":"Wild Side Salmon",
-        "url":""
-    },
-    {
-        "name":"Radagast Pet Food, Inc",
-        "url":""
-    },
-    {
-        "name":"Durabelt",
         "url":""
     },
     {
@@ -572,10 +444,6 @@ ahApp.constant("brandData", [
     {
         "name":"Hugglehounds",
         "url":""
-    },
-    {
-        "name":"Newman's Own Organics",
-        "url":"http://www.newmansown.com/pet-food/organics"
     },
     {
         "name":"K9 Granola Factory",
@@ -590,27 +458,11 @@ ahApp.constant("brandData", [
         "url":""
     },
     {
-        "name":"Henry & Clemmie's",
-        "url":""
-    },
-    {
         "name":"Stewarts Treats",
         "url":""
     },
     {
         "name":"Fashion Pet",
-        "url":""
-    },
-    {
-        "name":"Valor",
-        "url":""
-    },
-    {
-        "name":"Supercat",
-        "url":""
-    },
-    {
-        "name":"Vip Products",
         "url":""
     },
     {
@@ -623,10 +475,6 @@ ahApp.constant("brandData", [
     },
     {
         "name":"Sergeants Pet Care Products",
-        "url":""
-    },
-    {
-        "name":"Zoo Med",
         "url":""
     },
     {
@@ -650,10 +498,6 @@ ahApp.constant("brandData", [
         "url":""
     },
     {
-        "name":"Kent Pet Group Inc",
-        "url":""
-    },
-    {
         "name":"Blue Ribbon Pet Products",
         "url":""
     },
@@ -662,23 +506,11 @@ ahApp.constant("brandData", [
         "url":""
     },
     {
-        "name":"Perrigo Animal Health",
-        "url":""
-    },
-    {
         "name":"Rawz Natural Pet Food Inc",
         "url":""
     },
     {
         "name":"Nupro Supplements",
-        "url":""
-    },
-    {
-        "name":"Healthy Essentials",
-        "url":""
-    },
-    {
-        "name":"American Colloid",
         "url":""
     },
     {
@@ -698,10 +530,6 @@ ahApp.constant("brandData", [
         "url":""
     },
     {
-        "name":"Ani Mate  Inc.",
-        "url":""
-    },
-    {
         "name":"Innovative Design & Sourc Llc",
         "url":""
     },
@@ -718,23 +546,11 @@ ahApp.constant("brandData", [
         "url":""
     },
     {
-        "name":"Durapet",
-        "url":""
-    },
-    {
         "name":"Knight Pet",
         "url":""
     },
     {
-        "name":"Koller Craft",
-        "url":""
-    },
-    {
         "name":"Bags on Board",
-        "url":""
-    },
-    {
-        "name":"Fetch for Pets / Burts Bees",
         "url":""
     },
     {
@@ -790,15 +606,7 @@ ahApp.constant("brandData", [
         "url":""
     },
     {
-        "name":"Ideal Pet Products/Perfect Pet",
-        "url":""
-    },
-    {
         "name":"Petpals Group Inc",
-        "url":""
-    },
-    {
-        "name":"Lees Aquarium & Pet Products",
         "url":""
     },
     {
@@ -807,10 +615,6 @@ ahApp.constant("brandData", [
     },
     {
         "name":"Licks",
-        "url":""
-    },
-    {
-        "name":"Icelandic+",
         "url":""
     },
     {
@@ -830,10 +634,6 @@ ahApp.constant("brandData", [
         "url":""
     },
     {
-        "name":"Pet Kelp",
-        "url":""
-    },
-    {
         "name":"Aquarium Systems",
         "url":""
     },
@@ -843,18 +643,6 @@ ahApp.constant("brandData", [
     },
     {
         "name":"Waggers",
-        "url":""
-    },
-    {
-        "name":"Wild Calling",
-        "url":""
-    },
-    {
-        "name":"Oxbow Animal Health",
-        "url":""
-    },
-    {
-        "name":"Roma",
         "url":""
     },
     {
@@ -870,10 +658,6 @@ ahApp.constant("brandData", [
         "url":""
     },
     {
-        "name":"Woodstream Corp",
-        "url":""
-    },
-    {
         "name":"Rad Cat Raw",
         "url":"http://www.radfood.com/"
     },
@@ -883,10 +667,6 @@ ahApp.constant("brandData", [
     },
     {
         "name":"Bff",
-        "url":""
-    },
-    {
-        "name":"Smart N Tasty",
         "url":""
     },
     {
@@ -902,14 +682,6 @@ ahApp.constant("brandData", [
         "url":""
     },
     {
-        "name":"Kdr Pet Treats",
-        "url":""
-    },
-    {
-        "name":"Sporn Pet Products",
-        "url":""
-    },
-    {
         "name":"Bavarian Cat Toys",
         "url":""
     },
@@ -918,15 +690,7 @@ ahApp.constant("brandData", [
         "url":""
     },
     {
-        "name":"Hydor",
-        "url":""
-    },
-    {
         "name":"Weiss Walkie",
-        "url":""
-    },
-    {
-        "name":"Happy Dog",
         "url":""
     },
     {
@@ -946,10 +710,6 @@ ahApp.constant("brandData", [
         "url":"https://www.sojos.com/"
     },
     {
-        "name":"Andy's Dandys ",
-        "url":""
-    },
-    {
         "name":"Vital Essentials",
         "url":""
     },
@@ -958,19 +718,11 @@ ahApp.constant("brandData", [
         "url":""
     },
     {
-        "name":"Polka Dog Bakery",
-        "url":""
-    },
-    {
         "name":"Etta Says",
         "url":""
     },
     {
         "name":"Harry Barker",
-        "url":""
-    },
-    {
-        "name":"Zero Odor",
         "url":""
     },
     {
@@ -994,14 +746,6 @@ ahApp.constant("brandData", [
         "url":""
     },
     {
-        "name":"Eco Pup",
-        "url":""
-    },
-    {
-        "name":"Imagine This",
-        "url":""
-    },
-    {
         "name":"Feline Pine",
         "url":""
     },
@@ -1016,10 +760,6 @@ ahApp.constant("brandData", [
     {
         "name":"Preppy Puppy",
         "url":""
-    },
-    {
-        "name":"Portland Pet Food Co.",
-        "url":"https://portlandpetfoodcompany.com/"
     },
     {
         "name":"Fat Cat",
@@ -1082,14 +822,6 @@ ahApp.constant("brandData", [
         "url":"https://www.wellnesspetfood.com/"
     },
     {
-        "name":"Paragon Pet Products Usa Inc.",
-        "url":""
-    },
-    {
-        "name":"Raw Basics, Llc",
-        "url":""
-    },
-    {
         "name":"Honest Kitchen",
         "url":"https://www.thehonestkitchen.com/"
     },
@@ -1100,10 +832,6 @@ ahApp.constant("brandData", [
     {
         "name":"Acana",
         "url":"https://acana.com/?lang=usa"
-    },
-    {
-        "name":"Vista Products",
-        "url":""
     },
     {
         "name":"Worldwise Inc / Pet Links",
@@ -1119,10 +847,6 @@ ahApp.constant("brandData", [
     },
     {
         "name":"Mendota",
-        "url":""
-    },
-    {
-        "name":"Outward Hound",
         "url":""
     },
     {
@@ -1154,10 +878,6 @@ ahApp.constant("brandData", [
         "url":""
     },
     {
-        "name":"Our Pets Company",
-        "url":""
-    },
-    {
         "name":"Earthborn",
         "url":"https://www.earthbornholisticpetfood.com/"
     },
@@ -1170,15 +890,7 @@ ahApp.constant("brandData", [
         "url":""
     },
     {
-        "name":"Wells Pet Food",
-        "url":""
-    },
-    {
         "name":"Coastal Pet Products",
-        "url":""
-    },
-    {
-        "name":"Miraclecorp Products",
         "url":""
     },
     {
@@ -1195,10 +907,6 @@ ahApp.constant("brandData", [
     },
     {
         "name":"Tucker's",
-        "url":""
-    },
-    {
-        "name":"Muntech Products Inc",
         "url":""
     },
     {
@@ -1222,35 +930,11 @@ ahApp.constant("brandData", [
         "url":""
     },
     {
-        "name":"Wholistic Pet",
-        "url":"https://www.wholisticpetorganics.com/"
-    },
-    {
-        "name":"Wet Noz",
-        "url":""
-    },
-    {
-        "name":"Alpha Lamda Group",
-        "url":""
-    },
-    {
         "name":"Bio-pro Research/Urine off Slv080",
         "url":""
     },
     {
-        "name":"Eqyss Grooming Products",
-        "url":""
-    },
-    {
-        "name":"American Pet Nutrition",
-        "url":""
-    },
-    {
         "name":"Hempvet",
-        "url":""
-    },
-    {
-        "name":"Radio Systems Corp.(Pet Safe)",
         "url":""
     },
     {
@@ -1266,27 +950,11 @@ ahApp.constant("brandData", [
         "url":""
     },
     {
-        "name":"Pet Alert",
-        "url":""
-    },
-    {
         "name":"Supreme",
         "url":""
     },
     {
         "name":"Natures Logic",
-        "url":""
-    },
-    {
-        "name":"Dog Bark Naturals",
-        "url":""
-    },
-    {
-        "name":"San Francisco Bay Brand, Inc.",
-        "url":""
-    },
-    {
-        "name":"Pawz",
         "url":""
     },
     {
@@ -1306,10 +974,6 @@ ahApp.constant("brandData", [
         "url":""
     },
     {
-        "name":"Cat Man Doo",
-        "url":""
-    },
-    {
         "name":"Petmate",
         "url":""
     },
@@ -1323,10 +987,6 @@ ahApp.constant("brandData", [
     },
     {
         "name":"Indepet",
-        "url":""
-    },
-    {
-        "name":"Felinenuvo Grand",
         "url":""
     },
     {
@@ -1350,43 +1010,7 @@ ahApp.constant("brandData", [
         "url":""
     },
     {
-        "name":"Petlit",
-        "url":""
-    },
-    {
         "name":"Doggie Design",
-        "url":""
-    },
-    {
-        "name":"Outwa",
-        "url":""
-    },
-    {
-        "name":"Zignature",
-        "url":""
-    },
-    {
-        "name":"Wellpet",
-        "url":""
-    },
-    {
-        "name":"Wells Pet Foods",
-        "url":""
-    },
-    {
-        "name":"Andis Co.",
-        "url":""
-    },
-    {
-        "name":"Redbarn Pet Products",
-        "url":""
-    },
-    {
-        "name":"Bocces Bakery",
-        "url":""
-    },
-    {
-        "name":"Healthy Pet",
         "url":""
     },
     {
@@ -1394,15 +1018,7 @@ ahApp.constant("brandData", [
         "url":""
     },
     {
-        "name":"Prepp",
-        "url":""
-    },
-    {
         "name":"Whitebridge Pet Brand-cloudstr",
-        "url":""
-    },
-    {
-        "name":"Boxiecat",
         "url":""
     },
     {
