@@ -6,24 +6,23 @@
         <div class="row">
             <div class="col-md-6">
                 <h3 class="westbrook">Westbrook</h3>
-
-                <div class="card">
-                    <img class="card-img-top" src="/assets/images/noprofile.gif" alt="Card image cap">
+                <div class="card m-top-1" ng-repeat="(key, attr) in employees" ng-if="attr.store === 'Westbrook'">
+                    <img ng-if="attr.image === ''" class="card-img-top" ng-src="/assets/images/noprofile.gif" alt="Card image cap">
+                    <img ng-if="attr.image !== ''" class="card-img-top" ng-src="/assets/images/employees/{{attr.image}}" alt="Card image cap">
                     <div class="card-body">
-                            <h5>David</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h5>{{attr.name}}</h5>
+                        <p class="card-text">{{attr.blurb}}</p>
                     </div>
                 </div>
-               
             </div>
             <div class="col-md-6">
                 <h3 class="damariscotta">Damariscotta</h3>
-                
-                <div class="card">
-                    <img class="card-img-top" src="/assets/images/noprofile.gif" alt="Card image cap">
+                <div class="card m-top-1" ng-repeat="(key, attr) in employees" ng-if="attr.store === 'Damariscotta'">
+                    <img ng-if="attr.image === ''" class="card-img-top" ng-src="/assets/images/noprofile.gif" alt="Card image cap">
+                    <img ng-if="attr.image !== ''" class="card-img-top" ng-src="/assets/images/employees/{{attr.image}}" alt="Card image cap">
                     <div class="card-body">
-                        <h5>Kim</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h5>{{attr.name}}</h5>
+                        <p class="card-text">{{attr.blurb}}</p>
                     </div>
                 </div>
 
