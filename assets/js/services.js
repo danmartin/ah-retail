@@ -16,7 +16,7 @@ ahApp.constant("employeeData", [
         name: "Kim",
         store: "Damariscotta",
         role: "",
-        image: "",
+        image: "kim.png",
         blurb: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
     },
     {
